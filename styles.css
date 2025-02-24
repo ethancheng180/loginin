@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0078d4;
+}
+
+.or {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.fb-login {
+    background: #385185;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.forgot-password {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.signup a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
